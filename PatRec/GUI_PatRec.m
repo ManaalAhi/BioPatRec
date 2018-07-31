@@ -81,7 +81,7 @@ function GUI_PatRec_OpeningFcn(hObject, eventdata, handles, varargin)
 
 set(handles.bg_featuresSelect,'SelectionChangeFcn',@bg_featuresSelect_SelectionChangeFcn);
 
-backgroundImage2 = importdata('/../Img/BioPatRec.png');
+backgroundImage2 = importdata('Img/BioPatRec.png');
 %select the axes
 axes(handles.axes1);
 %place image onto the axes

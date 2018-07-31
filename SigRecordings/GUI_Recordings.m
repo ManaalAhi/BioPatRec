@@ -1,5 +1,5 @@
 % ---------------------------- Copyright Notice ---------------------------
-% This file is part of BioPatRec © which is open and free software under 
+% This file is part of BioPatRec ï¿½ which is open and free software under 
 % the GNU Lesser General Public License (LGPL). See the file "LICENSE" for 
 % the full license governing this code and copyrights.
 %
@@ -93,7 +93,7 @@ function GUI_Recordings_OpeningFcn(hObject, eventdata, handles, varargin)
 % varargin   command line arguments to GUI_Recordings (see VARARGIN)
 
 %load the background image into Matlab
-backgroundImage2 = importdata('/../Img/BioPatRec.png');
+backgroundImage2 = importdata('Img/BioPatRec.png');
 %select the axes
 axes(handles.a_biopatrec);
 %place image onto the axes
